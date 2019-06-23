@@ -25,17 +25,17 @@ class Controller:
         + testBotMarkAny + testBotMarkLastSpot + testBotMarkAll
 
         if(logId > 0):
-            print("testEmptyBoard:               ", "Pass" if not testEmptyBoard else "Failed")
-            print("testMarkBoard:                ", "Pass" if not testMarkBoard else "Failed")
-            print("testMarkSameSpot:             ", "Pass" if not testMarkSameSpot else "Failed")
-            print("testValidateMarkSameSpot:     ", "Pass" if not testValidateMarkSameSpot else "Failed")
-            print("testCheckGameNotFinished:     ", "Pass" if not testCheckGameNotFinished else "Failed")
-            print("testCheckGameDraw:            ", "Pass" if not testCheckGameDraw else "Failed")
-            print("testCheckGameXWin:            ", "Pass" if not testCheckGameXWin else "Failed")
-            print("testCheckGameOWin:            ", "Pass" if not testCheckGameOWin else "Failed")
-            print("testBotMarkAny:               ", "Pass" if not testBotMarkAny else "Failed")
-            print("testBotMarkLastSpot:          ", "Pass" if not testBotMarkLastSpot else "Failed")
-            print("testBotMarkAll:               ", "Pass" if not testBotMarkAll else "Failed")
+            print("\ttestEmptyBoard:               ", "Pass" if not testEmptyBoard else "Failed")
+            print("\ttestMarkBoard:                ", "Pass" if not testMarkBoard else "Failed")
+            print("\ttestMarkSameSpot:             ", "Pass" if not testMarkSameSpot else "Failed")
+            print("\ttestValidateMarkSameSpot:     ", "Pass" if not testValidateMarkSameSpot else "Failed")
+            print("\ttestCheckGameNotFinished:     ", "Pass" if not testCheckGameNotFinished else "Failed")
+            print("\ttestCheckGameDraw:            ", "Pass" if not testCheckGameDraw else "Failed")
+            print("\ttestCheckGameXWin:            ", "Pass" if not testCheckGameXWin else "Failed")
+            print("\ttestCheckGameOWin:            ", "Pass" if not testCheckGameOWin else "Failed")
+            print("\ttestBotMarkAny:               ", "Pass" if not testBotMarkAny else "Failed")
+            print("\ttestBotMarkLastSpot:          ", "Pass" if not testBotMarkLastSpot else "Failed")
+            print("\ttestBotMarkAll:               ", "Pass" if not testBotMarkAll else "Failed")
         
         print("All test passed!" if (finalRes == 0) else "One or more tests failed.")
 
