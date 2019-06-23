@@ -14,8 +14,3 @@ Flags:
 - -tests, -t: run tests and quit, default off
 - -players, -p + int: number of players, 1 or 2, default 1
 - -logId, -l + int: log id, higher id means more information is printed, 0 to 2, default 1
-
-## TODO:
-- Add simple tests
-- Make a designated default cli file for handling generic program arguments and input (help, quit, running tests, debug mode)
-- Debug in subclasses in main
