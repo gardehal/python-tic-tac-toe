@@ -1,6 +1,7 @@
 import sys
 import game
 import tests
+import ai
 
 # Gamestate:
 # 0 = not initated
@@ -86,6 +87,9 @@ while i < nArg:
             except ValueError and IndexError:
                 print("Incorrect number of players, expecting whole number: minimum %d, maximum %d" %(minPlayers, maxPlayers))
                 quit()
+        elif(arg == "-ai"):
+            ai.AI.printExample()
+            quit()
 
     except ValueError:
         print("Invalid arguments, please refer to the guide below.")
