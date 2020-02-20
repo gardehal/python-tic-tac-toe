@@ -90,6 +90,9 @@ while i < nArg:
         elif(arg == "-ai"):
             ai.AI.printExample()
             quit()
+        elif(arg == "-ait"):
+            ai.AI.aiTest()
+            quit()
 
     except ValueError:
         print("Invalid arguments, please refer to the guide below.")
